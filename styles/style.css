@@ -1,0 +1,138 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+}
+/* header top-bar section style */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: rgb(255, 248, 242);
+    width:100%;
+    padding:15px 0;
+    height: 837px;
+    
+}
+.side-bar{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:left top , right bottom;
+ 
+}
+
+.home-page {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  nav {
+    display:flex;
+    justify-content: space-between;
+    /* margin:70px 150px; */
+    /* margin:0 auto; */
+    /* align-items: center; */
+  }
+  nav .nav-title{
+    font-size:36px;
+    font-weight: bolder;
+    margin-left:200px;
+    margin-top:20px;
+  }
+  nav .nav-subtitle{
+    color:#FD6E0A;
+  }
+  nav ul {
+    display:flex;
+    margin-right:150px;
+    align-items: center;
+  }
+  nav ul li {
+    list-style:none;
+    margin:25px;
+
+  }
+  nav ul li a {
+    text-decoration:none;
+color:#474747;
+font-weight: 400px;
+font-size:16px;
+  }
+  /* shared style */
+  nav ul li .btn-primary{
+    background-color:#FD6E0A;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    
+  }
+  nav ul li .btn-primary a{
+ font-size:16px; 
+ font-weight: bold;
+ color:#FFFFFF;
+  }
+  /* nav section style end  */
+.images-content{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+  .content{
+    width:470px;
+    margin-left:200px;
+  }
+  .content .content-title{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 33px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0%;
+  }
+  .content .content-title-two{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 60px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: 0%;
+  }
+  .content .content-description{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+  }
+  .content .btn-second {
+background-color:rgb(253, 110, 10);
+padding:10px;
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+margin-top:10px;
+margin-right:10px;
+border:none;
+cursor:pointer;
+  }
+  .content .btn-tirtiary{
+ color: rgb(253, 110, 10);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+padding:10px;
+cursor:pointer;
+margin-top:10px;
+  }
