@@ -161,7 +161,7 @@ margin-top:10px;
     /* margin-top:20px; */
     text-align:center;
     margin-top:90px;
-    margin-left:70px;
+    margin-left:100px;
   }
 
 .sub-about{
@@ -199,4 +199,112 @@ margin-top:10px;
     font-weight: bold;
     line-height: 20px;
     color:#474747;
+  }
+  /* Skills style */
+.Skills-All{
+  margin-top:20px;
+  margin-left:30px;
+}
+
+
+
+  .Skills-All .Experience>h2{
+    font-size:25px;
+    font-weight: bold;
+    color:#181818;
+    text-align:center;
+  }
+  .Skills-All .Experience>p{
+    font-size:13px;
+    font-weight: 400ox;
+    line-height: 20px;
+    color:#757575;
+    text-align:center;
+    width:730px;
+    margin-left:40px;
+  }
+  .Experience{
+    margin-top:50px;
+  }
+  
+  /* skills card style  */
+
+.Skills-name{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+
+  .js{
+    width:215px;
+    height: 302px;
+    padding:10px;
+    
+  }
+  .js h2{
+    font-size:16px;
+    font-weight: bold;
+    color:#181818;
+    margin-top:20px;
+  }
+  .js p{
+    font-size:13px;
+    font-weight: 400px;
+    line-height:23px;
+    color:#757575;
+    margin-top:20px;
+  }
+  .rj{
+    width:215px;
+    height: 302px;
+    padding:10px;
+  }
+  .rj h2{
+    font-size:16px;
+    font-weight: bold;
+    color:#181818;
+    margin-top:20px;
+  }
+  .rj p{
+    font-size:13px;
+    font-weight: 400px;
+    line-height:23px;
+    color:#757575;
+    margin-top:20px;
+  }
+  .node{
+    width:215px;
+    height: 302px;
+    padding:10px;
+  }
+  .node h2{
+    font-size:16px;
+    font-weight: bold;
+    color:#181818;
+    margin-top:20px;
+  }
+  .node p{
+    font-size:13px;
+    font-weight: 400px;
+    line-height:23px;
+    color:#757575;
+    margin-top:20px;
+  }
+  .Mongo-DB{
+    width:215px;
+    height: 302px;
+    padding:10px;
+  }
+  .Mongo-DB h2{
+    font-size:16px;
+    font-weight: bold;
+    color:#181818;
+    margin-top:20px;
+  }
+  .Mongo-DB p{
+    font-size:13px;
+    font-weight: 400px;
+    line-height:23px;
+    color:#757575;
+    margin-top:20px;
   }
