@@ -308,3 +308,96 @@ margin-top:10px;
     color:#757575;
     margin-top:20px;
   }
+  /* Edu-skills  */
+  .resume{
+    font-size:26px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .Edu-Skills{
+    width:410px;
+    height:140px;
+  }
+  .Edu-Skills h2 {
+    font-size:16px;
+    font-weight: bold;
+    color:#474747;
+    margin-top:20px;
+
+  } 
+  .Edu-Skills h4{
+    font-size:13px;
+    font-weight: 400px;
+    color:#757575;
+    margin-top:5px;
+  }
+  .Edu-Skills p{
+    font-size:13px;
+    font-weight: 400px;
+    color:#757575;
+    margin-top:10px;
+    margin-bottom:0px;
+  }
+  .name-dev p{
+    font-size:13px;
+    font-weight: 400px;
+    color:#757575;
+    margin-top:10px;
+    margin-bottom:0px;
+  }
+  .name-dev h4{
+    font-size:13px;
+    font-weight: 400px;
+    color:#757575;
+    margin-top:5px;
+  }
+  .name-dev h2{
+    font-size:16px;
+    font-weight: bold;
+    color:#474747;
+    margin-top:20px;
+  }
+  .horizontal-break{
+width:430px;
+color:#D1D1D1;
+  }
+  .name-dev{
+    width:410px;
+    height: 140px;
+  }
+  .developer-section{
+    display:flex;
+    margin-left:10px;
+  }
+  .technology{
+    margin-left:5px;
+  }
+  .Education {
+    font-size:13px;
+    font-weight: bold;
+    color:#474747;
+    margin-top:50px;
+  }
+  .dev-exp{
+    font-size:13px;
+    font-weight: bold;
+    color:#474747;
+    margin-top:50px;
+  }
+  /* button */
+  .btn-cv{
+    color: white;
+    background-color: #FD6E0A;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+padding:10px;
+cursor:pointer;
+margin-top:10px;
+  }
+  .btn-rc{
+    text-align: center;
+  }
