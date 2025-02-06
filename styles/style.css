@@ -68,17 +68,18 @@ font-weight: 400px;
 font-size:16px;
   }
   /* shared style */
-  nav ul li .btn-primary{
+  nav ul li .btn-primary , .input-box .btn-primary{
     background-color:#FD6E0A;
     padding:10px;
     border-radius:5px;
     border:none;
     
   }
-  nav ul li .btn-primary a{
+  nav ul li .btn-primary a ,.input-box .btn-primary{
  font-size:16px; 
  font-weight: bold;
  color:#FFFFFF;
+ cursor:pointer;
   }
   /* nav section style end  */
 .images-content{
@@ -401,3 +402,59 @@ margin-top:10px;
   .btn-rc{
     text-align: center;
   }
+  /* footer style */
+.lets-go{
+  display:flex;
+ background-color: #FFF8F3;
+ margin-top:20px;
+ padding:50px;
+ /* justify-content:space-between; */
+ gap:50px;
+}
+.footer-image-icon{
+  margin-left:230px;
+  margin-top:50px;
+}
+  .footer-image-icon h3{
+font-size:28px;
+font-weight: bold;
+color:#181818;
+  }
+  .footer-image-icon p{
+    font-size:13px;
+    font-weight: 400px;
+    line-height:23px;
+    color:#474747;
+    margin-top:10px;
+    width:450px;
+    margin-bottom:10px;
+  }
+.message h3 {
+font-size:25px;
+font-weight: bold;
+color:#181818;
+margin:10px;
+}
+.input-box{
+  display:block;
+}
+.footer-column h3{
+  font-size:25px;
+font-weight: bold;
+color:#181818;
+margin:10px;
+}
+.footer-column .input-name , .input-email{
+width:290px;
+height: 52px; 
+color:#FFFFFF;
+padding:10px;
+border:none;
+margin-bottom:10px;
+}
+.footer-column .input-massage-box{
+  padding:10px;
+  width:290px;
+  border:none;
+  margin-bottom:10px;
+}
